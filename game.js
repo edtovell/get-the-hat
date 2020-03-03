@@ -23,9 +23,9 @@ const guyMoveSpeed = 100;
 
 
 function preload() {
-    this.load.spritesheet('guy', 'assets/images/guy_spritesheet.png', {frameWidth: 32, frameHeight: 32});
-    this.load.tilemapTiledJSON('map', 'assets/images/maps/map1.json');
-    this.load.image('tiles', 'assets/images/tiles/tile_spritesheet.png');
+    this.load.spritesheet('guy', './assets/images/guy_spritesheet.png', {frameWidth: 32, frameHeight: 32});
+    this.load.tilemapTiledJSON('map', './assets/images/maps/map1.json');
+    this.load.image('tiles', './assets/images/tiles/tile_spritesheet.png');
 }
 
 function create() {
